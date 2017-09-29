@@ -8,14 +8,17 @@ import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 
-public class MyModule extends ReactContextBaseJavaModule {
+import java.util.Map;
 
+public class ToastModule extends ReactContextBaseJavaModule{
+
+  public ToastModule(ReactApplicationContext reactContext) {
+    super(reactContext);
+  }
   private static final String DURATION_SHORT_KEY = "SHORT";
 private static final String DURATION_LONG_KEY = "LONG";
 
-public ToastModule(ReactApplicationContext reactContext) {
-  super(reactContext);
-}
+
 
 @Override
   public String getName() {
