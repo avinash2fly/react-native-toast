@@ -1,4 +1,4 @@
-package com.yushulx.helloworld;
+package com.avinash.simpletoast;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;

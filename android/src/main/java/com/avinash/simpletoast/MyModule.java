@@ -1,4 +1,4 @@
-package com.yushulx.helloworld;
+package com.avinash.simpletoast;
 
 import android.widget.Toast;
 
