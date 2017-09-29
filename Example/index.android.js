@@ -4,32 +4,38 @@
  * @flow
  */
 
-import React, {Component} from 'react';
-import {AppRegistry, StyleSheet, View, Button} from 'react-native';
+ /**
+  * Sample React Native App
+  * https://github.com/facebook/react-native
+  * @flow
+  */
 
-import MyModule from 'react-native-helloworld';
+ import React, {Component} from 'react';
+ import {AppRegistry, StyleSheet, View, Button} from 'react-native';
 
-const onButtonPress = () => {
-  MyModule.alert('Hello World');
-};
+ import MyModule from 'react-native-toast';
 
-export default class Example extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Button title='Click' onPress={onButtonPress}/>
-      </View>
-    );
-  }
-}
+ const onButtonPress = () => {
+   MyModule.alert('Hello World');
+ };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF'
-  }
-});
+ export default class Example extends Component {
+   render() {
+     return (
+       <View style={styles.container}>
+         <Button title='Click' onPress={onButtonPress}/>
+       </View>
+     );
+   }
+ }
+
+ const styles = StyleSheet.create({
+   container: {
+     flex: 1,
+     justifyContent: 'center',
+     alignItems: 'center',
+     backgroundColor: '#F5FCFF'
+   }
+ });
 
 AppRegistry.registerComponent('Example', () => Example);

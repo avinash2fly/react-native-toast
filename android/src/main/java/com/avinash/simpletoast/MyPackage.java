@@ -1,5 +1,3 @@
-package com.avinash.simpletoast;
-
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
 import com.facebook.react.bridge.NativeModule;
@@ -27,7 +25,7 @@ public class MyPackage implements ReactPackage {
                               ReactApplicationContext reactContext) {
     List<NativeModule> modules = new ArrayList<>();
 
-    modules.add(new MyModule(reactContext));
+    modules.add(new ToastModule(reactContext));
 
     return modules;
   }
