@@ -1,0 +1,25 @@
+{
+  "name": "react-native-toast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinash2fly/react-native-toast.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "android",
+    "modules"
+  ],
+  "author": "avinash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avinash2fly/react-native-toast/issues"
+  },
+  "homepage": "https://github.com/avinash2fly/react-native-toast#readme"
+}
