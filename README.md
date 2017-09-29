@@ -17,6 +17,27 @@ to import this library
 ```
 npm install git+https://github.com/avinash2fly/react-native-toast.git
 ```
+## How to integrate in project
+
+***import module***
+```
+import ToastAndroid from 'react-native-toast';
+```
+
+***call function***
+```
+ToastAndroid.show('Awesome', ToastAndroid.SHORT);
+```
+
+***SHORT time***
+```
+ToastAndroid.SHORT
+```
+
+***Long time***
+```
+ToastAndroid.LONG
+```
 
 ## How to create native modules
 
