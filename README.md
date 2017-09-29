@@ -4,8 +4,13 @@ cd /Example to test the sample code
 
 steps:
 
-```npm install```
-``` run-android```
+```
+npm install
+```
+
+``` 
+react-native run-android
+```
 
 to import this library
 
