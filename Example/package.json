@@ -8,8 +8,7 @@
 	},
 	"dependencies": {
 		"react": "16.0.0-alpha.12",
-		"react-native": "0.48.4",
-		"react-native-toast": "git+https://github.com/avinash2fly/react-native-toast.git"
+		"react-native": "0.48.4"
 	},
 	"devDependencies": {
 		"babel-jest": "21.2.0",
